@@ -1,0 +1,46 @@
+# YOLOv11 Drone Detection Dataset Configuration
+
+# Dataset root path (update this to your dataset location)
+path: /content/drone_dataset
+
+# Train/val/test splits
+train: train/images
+val: valid/images
+test: test/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names:
+  0: drone
+```
+
+---
+
+## File 6: `notebooks/drone_detection_complete.ipynb`
+
+For the notebook, simply copy your original complete code from the document you provided. Save it as a Jupyter notebook file (.ipynb).
+
+---
+
+## File 7: `models/.gitkeep`
+```
+# Placeholder file to keep the models directory in Git
+# Place your trained model weights (.pt files) here
+```
+
+---
+
+## File 8: `results/.gitkeep`
+```
+# Placeholder file to keep the results directory in Git
+# Training results (plots, metrics) will be saved here
+```
+
+---
+
+## File 9: `data/.gitkeep`
+```
+# Placeholder file to keep the data directory in Git
+# Download and extract the dataset here
